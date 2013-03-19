@@ -145,7 +145,7 @@ _Deploy.prototype = {
 	module:function(mod,output){
 		var self = this;
 		//define __modeule app
-		var moduleCode = fs.readFileSync('./mt.js');
+		var moduleCode = fs.readFileSync('./mbee.js');
 		/*
 		* mod engine
 		*/
@@ -308,7 +308,7 @@ _Deploy.prototype = {
 		}
 	},
 	_compressMod:function(id,code){
-		return  'mt.module("'+id+'",function(require,exports,module){'+code+'})';
+		return  'mbee.module("'+id+'",function(require,exports,module){'+code+'})';
 	}
 }
 
