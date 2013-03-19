@@ -81,7 +81,7 @@ mbee.php对文件进行了缓存，304等处理。并能自动对比文件新旧
 直接使用 `var a = require('a')` 即可
 ####2,非模块或者页面中使用模块
 `var a = mt.module('a')`;
-####3，加载自动执行模块    
+####3，自动执行模块    
 `<script type="text/javascript" src="http:://youdomain.com/page/index.js" init="page/index"><script>`    
   
 
