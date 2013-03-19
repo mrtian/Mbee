@@ -33,8 +33,10 @@ class Mbee {
 				$last_modified = filemtime($exitMod);
 				$is304 = self::caching_headers($modFile,$last_modified);
 				
-				if(!$is304)
+				if(!$is304){
 					echo $ret;
+					file_put_contents($exitMod, $ret);
+				}
 			}else{
 				file_put_contents($exitMod, $ret);
 				$last_modified = filemtime($exitMod);

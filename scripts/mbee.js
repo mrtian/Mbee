@@ -48,7 +48,7 @@
 			if(init.length){
 				var complete = function(){
 					for(var i=0;i<init.length;i++){
-						mt.module(init[i]);
+						mbee.module(init[i]);
 					}
 				}
 				currentScript.onload = complete;
