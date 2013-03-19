@@ -38,6 +38,7 @@ uglify-js 用于压缩，使用npm安装即可
     }
 
 ###php自动化调试及线上环境
+mbee.php对文件进行了缓存，304等处理。并能自动对比文件新旧，以输出到客户端，保证客户端获取到最新代码。  
 ####获取mbee源码
 
     git clone https://github.com/mrtian/mbee.git ~/Sites/Mbee
