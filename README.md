@@ -65,7 +65,7 @@ mbee.php对文件进行了缓存，304等处理。并能自动对比文件新旧
  打开浏览器：http:://youdomain.com/page/index.js 查看js源码    
  或者在你的页面中添加 http:://youdomain.com/page/index.js 看看效果     
 
- ####配置mbee
+####配置mbee    
  在入口文件index.php中可以配置开发模式(就是使用不压缩的js而已)        
  
     //Mbee的根目录
